@@ -1,0 +1,19 @@
+{
+  "name": "bank-Application",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "mysql": "^2.15.0",
+    "yarn": "^1.6.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}

@@ -1,0 +1,49 @@
+.add-client-form {
+	margin: 0 auto;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+.input {
+	width: 65%;
+	margin: 10px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+input, select {
+	width: 50%;
+	padding: 5px;
+	box-sizing: content-box;
+	font-size: 1.1rem;	
+}
+
+.checkbox {
+	width: 34%;
+}
+
+input[type='checkbox'] {
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+	-webkit-transform: scale(2); /* Safari and Chrome */
+	-o-transform: scale(2); /* Opera */
+  	padding: 10px;
+}
+
+.submit {
+	display: flex;
+	justify-content: flex-end;
+}
+
+input[type='submit'] {
+	width: auto;
+	padding: 3px 5px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.required {
+	color: red;
+}

@@ -1,0 +1,35 @@
+.control-panel {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 95%;
+	font-size: 1rem;
+}
+
+button {
+	font-size: inherit;
+	cursor: pointer;
+	background-color: white;
+}
+
+.red-button {
+	color: red;
+}
+
+.green-button {
+	color: green;
+}
+
+.control-panel-buttons {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.search {	
+width: 35%;	
+display: flex;
+justify-content: flex-end;
+}
